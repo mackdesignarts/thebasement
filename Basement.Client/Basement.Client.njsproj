@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>Basement.Client</Name>
+    <RootNamespace>Basement.Client</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c594bda1-0936-4b1f-9aa1-7cefd5b578ac</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartWebBrowser>false</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app\public\css\bootswatch.css" />
+    <Content Include="app\public\css\main.css" />
+    <Content Include="app\public\img\card_back.png" />
+    <Content Include="app\public\img\deck\10C.png" />
+    <Content Include="app\public\img\deck\10D.png" />
+    <Content Include="app\public\img\deck\10H.png" />
+    <Content Include="app\public\img\deck\10S.png" />
+    <Content Include="app\public\img\deck\2C.png" />
+    <Content Include="app\public\img\deck\2D.png" />
+    <Content Include="app\public\img\deck\2H.png" />
+    <Content Include="app\public\img\deck\2S.png" />
+    <Content Include="app\public\img\deck\3C.png" />
+    <Content Include="app\public\img\deck\3D.png" />
+    <Content Include="app\public\img\deck\3H.png" />
+    <Content Include="app\public\img\deck\3S.png" />
+    <Content Include="app\public\img\deck\4C.png" />
+    <Content Include="app\public\img\deck\4D.png" />
+    <Content Include="app\public\img\deck\4H.png" />
+    <Content Include="app\public\img\deck\4S.png" />
+    <Content Include="app\public\img\deck\5C.png" />
+    <Content Include="app\public\img\deck\5D.png" />
+    <Content Include="app\public\img\deck\5H.png" />
+    <Content Include="app\public\img\deck\5S.png" />
+    <Content Include="app\public\img\deck\6C.png" />
+    <Content Include="app\public\img\deck\6D.png" />
+    <Content Include="app\public\img\deck\6H.png" />
+    <Content Include="app\public\img\deck\6S.png" />
+    <Content Include="app\public\img\deck\7C.png" />
+    <Content Include="app\public\img\deck\7D.png" />
+    <Content Include="app\public\img\deck\7H.png" />
+    <Content Include="app\public\img\deck\7S.png" />
+    <Content Include="app\public\img\deck\8C.png" />
+    <Content Include="app\public\img\deck\8D.png" />
+    <Content Include="app\public\img\deck\8H.png" />
+    <Content Include="app\public\img\deck\8S.png" />
+    <Content Include="app\public\img\deck\9C.png" />
+    <Content Include="app\public\img\deck\9D.png" />
+    <Content Include="app\public\img\deck\9H.png" />
+    <Content Include="app\public\img\deck\9S.png" />
+    <Content Include="app\public\img\deck\AC.png" />
+    <Content Include="app\public\img\deck\AD.png" />
+    <Content Include="app\public\img\deck\AH.png" />
+    <Content Include="app\public\img\deck\AS.png" />
+    <Content Include="app\public\img\deck\JC.png" />
+    <Content Include="app\public\img\deck\JD.png" />
+    <Content Include="app\public\img\deck\JH.png" />
+    <Content Include="app\public\img\deck\JS.png" />
+    <Content Include="app\public\img\deck\KC.png" />
+    <Content Include="app\public\img\deck\KD.png" />
+    <Content Include="app\public\img\deck\KH.png" />
+    <Content Include="app\public\img\deck\KS.png" />
+    <Content Include="app\public\img\deck\QC.png" />
+    <Content Include="app\public\img\deck\QD.png" />
+    <Content Include="app\public\img\deck\QH.png" />
+    <Content Include="app\public\img\deck\QS.png" />
+    <Content Include="app\public\index.html" />
+    <Content Include="app\public\vendor\angular.min.js.map" />
+    <Content Include="app\public\views\game.html" />
+    <Content Include="bower.json" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\public\" />
+    <Folder Include="app\public\css\" />
+    <Folder Include="app\public\img\" />
+    <Folder Include="app\public\img\deck\" />
+    <Folder Include="app\public\scripts\" />
+    <Folder Include="app\public\scripts\directives\" />
+    <Folder Include="app\public\scripts\controllers\" />
+    <Folder Include="app\public\scripts\services\" />
+    <Folder Include="app\public\vendor\" />
+    <Folder Include="app\public\views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app\public\scripts\app.js" />
+    <Compile Include="app\public\scripts\controllers\gameCtrl.js" />
+    <Compile Include="app\public\scripts\services\httpFactory.js" />
+    <Compile Include="app\public\vendor\angular.min.js" />
+    <Compile Include="app\public\vendor\jquery.min.js" />
+    <Compile Include="gulpfile.js" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+</Project>

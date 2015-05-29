@@ -1,0 +1,42 @@
+body{
+  font-family: arial;
+  background-color: #16B851;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#response{
+  margin: 10px 0 0 30px;
+}
+
+button{
+  padding: 5px 10px;
+}
+
+.controls{
+  margin-top: 30px;
+}
+
+.controls > span {
+  margin: 0 3px;
+}
+
+.main{
+  float: right;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#status {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 0 5px;
+}
+
+.flop {
+    margin: 100px 0;
+}
